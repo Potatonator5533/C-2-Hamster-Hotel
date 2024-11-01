@@ -1,0 +1,319 @@
+nav {
+    height: 120px;
+}
+
+nav div div {
+    width: 945px;
+}
+
+/* Large */
+@media screen and (min-width: 1025px) {
+    .centerSection {
+        width: 1137px;
+    }
+}
+
+/* Medium */
+@media screen and (max-width: 1024px) {
+    .centerSection {
+        width: 80%;
+    }
+}
+
+/* Small */
+@media screen and (max-width: 451px) {
+    /* .centerSection {
+        width: 80%;
+    } */
+}
+
+
+
+/* Styles */
+.navStyle {
+    background-color: #000324;
+    color: white;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.headerStyle {
+    background-color: #000324;
+    opacity: 80%;
+    width: 945px;
+    height: 232px;
+}
+
+.textStyle1 {
+    color: #1A1B26;
+    font-size: 16px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.textStyle2 {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.textStyle3 {
+    color: #E5FEFF;
+    font-size: 16px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.amenitiesStyle {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bold;
+}
+
+.titleStyle {
+    color: #ffffff;
+    font-size: 45px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.subTitleStyle1 {
+    color: #1A1B26;
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.subTitleStyle2 {
+    color: #ffffff;
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.subTitleStyle3 {
+    color: #1A1B26;
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.packageTextStyle {
+    color: #1F51A8;
+    font-size: 16px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+
+/* Images */
+.imageBGHeader {
+    background-image: url(../assets/header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.imageBG2 {
+    background-image: url(../assets/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 738px;
+    width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+    .imageBG {
+        background-image: url(../assets/bg.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 548px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .imageBG {
+        background-image: url(../assets/bg.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 248px;
+        width: 100%;
+    }
+}
+
+.imageBGHamsterReserve {
+    background-image: url(../assets/hamsterreserve.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 414px;
+    width: 100%;
+}
+
+.imageBGhamsterhomejpg {
+    background-image: url(../assets/hamsterhomejpg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 416px;
+    width: 369px;
+}
+
+.imageBGroom1 {
+    background-image: url(../assets/room1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.imageBGroom2 {
+    background-image: url(../assets/room2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.imageBGroom3 {
+    background-image: url(../assets/room3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+/* @media screen and (min-width: 1024px) { */
+.imageBGhamsterwedding {
+    background-image: url(../assets/hamsterwedding.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 234px;
+    width: 561px;
+}
+
+.imageBGhamsterspring {
+    background-image: url(../assets/hamsterspring.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 234px;
+    width: 561px;
+}
+
+.imageBGhamstercheese {
+    background-image: url(../assets/hamstercheese.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 234px;
+    width: 561px;
+}
+
+/* } */
+
+
+
+
+
+.card {
+    width: 369px;
+    border-radius: 0%;
+    border-width: 0;
+}
+
+input {
+    border-color: #7a90d9;
+    width: 177px;
+    height: 38px;
+}
+
+@media screen and (min-width: 1200px) {
+    .ReserveARoomContentHeight {
+        height: 207px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .ReserveARoomContentWidth {
+        width: 1030px;
+    }
+}
+
+/* @media screen and (max-width: 1199px) {
+    .ReserveARoomContentWidth {
+        width: 80%;
+    }
+} */
+
+/* @media screen and (max-width: 1199px) {
+    .ReserveARoomContentWidth {
+        visibility: hidden !important;
+        height: 0px;
+    }
+} */
+
+
+
+.CardImageHeight {
+    height: 190px;
+}
+
+.card-body {
+    height: 332px;
+}
+
+.card-body button {
+    background-color: #004CC7;
+    color: #ffffff;
+    border: 0;
+    width: 150px;
+    height: 50px;
+}
+
+.card-body h6 {
+    font-weight: bold;
+}
+
+.card-body p {
+    height: 157px;
+    width: 337px;
+}
+
+.col button {
+    background-color: #006EDB;
+    border: #000DC7;
+    height: 38px;
+    width: 177px;
+}
+
+#twentyfourhourSize {
+    height: 101px;
+    width: 150px;
+}
+
+#breakfastSize {
+    height: 104px;
+    width: 150px;
+}
+
+#valetSize {
+    height: 115px;
+    width: 100px;
+}
+
+#poolSize {
+    height: 110px;
+    width: 155px;
+}
+
+
+/* #NavShrink {
+    display: flex;
+    flex-shrink: 3;
+} */
+
+#FooterHeight {
+    height: 300px;
+}
+
+/* @media screen and (max-width: 1024px) {
+    #NavShrink {
+        background-color: red;
+        width: 500px;
+        
+    }
+} */
