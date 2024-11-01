@@ -76,7 +76,7 @@
     <div class="d-block d-md-none">
         <br><br><br><br><br><br><br>
     </div>
-    
+
     <!-- Hero Image + Header -->
 
     <div class="container-fluid imageBGHeader d-flex align-items-center justify-content-center mb-5">
@@ -140,7 +140,6 @@
                         Our Rooms
                     </div>
                 </div>
-                <!-- <div class="col-1"></div> -->
                 <div class="col d-flex align-items-end justify-content-end pe-0">
                     <div class="card d-none d-xl-block">
                         <div class="imageBGroom1 CardImageHeight"></div>
@@ -187,67 +186,75 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-1"></div> -->
-                <div id="carouselExample" class="carousel slide d-block d-xl-none">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active d-flex justify-content-center">
-                            <div class="card">
-                                <div class="imageBGroom1 CardImageHeight"></div>
-                                <div class="card-body">
-                                    <h5 class="card-title subTitleStyle3">Queen Room</h5>
-                                    <h6>850 SQ FT room with city view</h6>
-                                    <p class="card-text textStyle1 mb-4">
-                                        • One queen size bed
-                                        <br><br>• Seed Bar, fireplace and large balcony
-                                        <br><br>• Small kitchen with a refrigerator and stove
-                                    </p>
-                                    <button type="button" class="amenitiesStyle">Reserve</button>
+                <!-- Carousel -->
+                <div class="container d-flex justify-content-center">
+                    <div class="row">
+                        <div class="col">
+                            <div id="carouselExample" class="carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active ">
+                                        <div class="card">
+                                            <div class="imageBGroom1 CardImageHeight"></div>
+                                            <div class="card-body">
+                                                <h5 class="card-title subTitleStyle3">Queen Room</h5>
+                                                <h6>850 SQ FT room with city view</h6>
+                                                <p class="card-text textStyle1 mb-4">
+                                                    • One queen size bed
+                                                    <br><br>• Seed Bar, fireplace and large balcony
+                                                    <br><br>• Small kitchen with a refrigerator and stove
+                                                </p>
+                                                <button type="button" class="amenitiesStyle">Reserve</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card">
+                                            <div class="imageBGroom3 CardImageHeight"></div>
+                                            <div class="card-body">
+                                                <h5 class="card-title subTitleStyle3">King Room</h5>
+                                                <h6>950 SQ FT room with beach view</h6>
+                                                <p class="card-text textStyle1 mb-4">
+                                                    • One king size bed
+                                                    <br><br>• Seed Bar, fireplace and large balcony
+                                                    <br><br>• Small kitchen with a refrigerator and stove
+                                                </p>
+                                                <button type="button" class="amenitiesStyle">Reserve</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card">
+                                            <div class="imageBGroom2 CardImageHeight"></div>
+                                            <div class="card-body">
+                                                <h5 class="card-title subTitleStyle3">Beach Side Suite</h5>
+                                                <h6>1500 SQ FT Suite with beach view</h6>
+                                                <p class="card-text textStyle1 mb-4">
+                                                    • One California king size bed
+                                                    <br><br>• Second room with fireplace, hot tub, and balcony
+                                                    <br><br>• Seed Bar and coffee station
+                                                    <br><br>• Full kitchen with a refrigerator, stove, and island
+                                                </p>
+                                                <button type="button" class="amenitiesStyle">Reserve</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item d-flex justify-content-center">
-                            <div class="card">
-                                <div class="imageBGroom3 CardImageHeight"></div>
-                                <div class="card-body">
-                                    <h5 class="card-title subTitleStyle3">King Room</h5>
-                                    <h6>950 SQ FT room with beach view</h6>
-                                    <p class="card-text textStyle1 mb-4">
-                                        • One king size bed
-                                        <br><br>• Seed Bar, fireplace and large balcony
-                                        <br><br>• Small kitchen with a refrigerator and stove
-                                    </p>
-                                    <button type="button" class="amenitiesStyle">Reserve</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item d-flex justify-content-center">
-                            <div class="card">
-                                <div class="imageBGroom2 CardImageHeight"></div>
-                                <div class="card-body">
-                                    <h5 class="card-title subTitleStyle3">Beach Side Suite</h5>
-                                    <h6>1500 SQ FT Suite with beach view</h6>
-                                    <p class="card-text textStyle1 mb-4">
-                                        • One California king size bed
-                                        <br><br>• Second room with fireplace, hot tub, and balcony
-                                        <br><br>• Seed Bar and coffee station
-                                        <br><br>• Full kitchen with a refrigerator, stove, and island
-                                    </p>
-                                    <button type="button" class="amenitiesStyle">Reserve</button>
-                                </div>
+                                <!-- Btns look bad :( -->
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
+
             </div>
         </div>
     </div>
@@ -417,7 +424,7 @@
                         </div>
                     </div>
                     <div class="col d-none d-xl-block">
-                        <button type="button" class="amenitiesStyle">Check Availability</button>
+                        <button type="button" class="amenitiesStyle checkAvailabilityBtnStyle">Check Availability</button>
                     </div>
                 </div>
                 <!-- An attempt at responsiveness. Uncomment below to see attempt -->
@@ -465,7 +472,7 @@
                     </div>
                     <div class="row">
                         <div class="col d-block d-xl-none">
-                            <button type="button" class="amenitiesStyle">Check Availability</button>
+                            <button type="button" class="amenitiesStyle checkAvailabilityBtnStyle">Check Availability</button>
                         </div>
                     </div>
                 </div> -->

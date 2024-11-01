@@ -273,11 +273,15 @@ input {
     width: 337px;
 }
 
-.col button {
+.checkAvailabilityBtnStyle {
     background-color: #006EDB;
     border: #000DC7;
     height: 38px;
     width: 177px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black;
 }
 
 #twentyfourhourSize {
